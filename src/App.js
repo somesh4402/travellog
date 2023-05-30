@@ -3,7 +3,7 @@ import './/App.css'
 import EditLocationAltIcon from '@mui/icons-material/EditLocationAlt';
 import { useState, useEffect } from 'react';  
 import axios from 'axios'
-import Map, { Marker } from 'react-map-gl';
+import Map, { Marker } from '!react-map-gl';
 import Room from '@mui/icons-material/Room';
 import StarIcon from '@mui/icons-material/Star';
 import { format } from 'timeago.js'
